@@ -1,4 +1,27 @@
 @extends('layouts.app_landing')
+
+@section('style')
+<style type="text/css">
+    .modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+</style>
+@endsection
 @section('content')
 
         <!-- Start Main Slider -->
@@ -322,11 +345,20 @@
     </div>
   </div>
 </div> --}}
+<div class="modal fade modal_zi" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+        <img src="{{ asset('assets/img/zi.png') }}">
+    </div>
+  </div>
+</div>
 @endsection
 @section('script')
  <script type="text/javascript">
 $(document).on('ready', function() {
         // $('.modal_poster').modal('show');
+
+        $('.modal_zi    ').modal('show');
     });
 </script>
 @endsection

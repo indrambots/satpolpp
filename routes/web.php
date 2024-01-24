@@ -127,6 +127,9 @@ Route::prefix('page')->group(function(){
 		Route::get('visi','PageController@ppid_visi');
 		Route::get('tusi','PageController@ppid_tusi');
 	});
+	Route::prefix('zi')->group(function(){
+		Route::get('','PageController@zi');
+	});
 	Route::get('kepegawaian','PageController@kepegawaian');
 	Route::get('kirab','PageController@kirab');
 });

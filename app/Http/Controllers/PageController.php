@@ -174,4 +174,9 @@ class PageController extends Controller
         $acara = Acara::where('id','>',0)->orderBy('tanggal','desc')->get();
         return view('pages.landing.acara.index',compact('acara'));
     }
+
+    public function zi()
+    {
+        return view('pages.landing.zi.index');
+    }
 }

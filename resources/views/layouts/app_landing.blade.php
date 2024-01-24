@@ -79,6 +79,7 @@
 
   gtag('config', 'G-44S1H0GN2F');
 </script>
+@yield('style')
 </head>
 
 <body>
