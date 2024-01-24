@@ -228,6 +228,7 @@
                                                 <li class="dropdown"><a href="#"><span>INFORMASI</span></a>
                                                             <ul>
                                                                 <li><a href="{{ url('kasandra') }}">Kasandra</a></li>
+                                                                <li><a href="{{ url('page/zi') }}">Zona Integritas</a></li>
                                                                 <li><a href="{{ url('wbs') }}">Whistle Blowing System (WBS) </a></li>
                                                                 <li><a href="{{ url('page/berita') }}">Berita</a></li>
                                                                 <li><a href="{{ url('page/gallery') }}">Gallery</a></li>
