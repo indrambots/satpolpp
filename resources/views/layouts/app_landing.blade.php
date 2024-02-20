@@ -233,6 +233,7 @@
                                                                 <li><a href="{{ url('page/berita') }}">Berita</a></li>
                                                                 <li><a href="{{ url('page/gallery') }}">Gallery</a></li>
                                                                 <li><a href="{{ url('kegiatan') }}">Kegiatan</a></li>
+                                                                      <li><a href="{{ url('page/skm') }}">Survey Kepuasan Masyarakat</a></li>
                                                             </ul>
                                                 </li>
                                                 <li><a href="https://pengaduan.satpolpp.jatimprov.go.id"><span>PENGADUAN!</span></a>

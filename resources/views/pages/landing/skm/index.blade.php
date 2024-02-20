@@ -30,7 +30,7 @@
                                 <div class="sub-title">
                                     <h3></h3>
                                 </div>
-                                <h2> Nilai Indeks Kepuasan Masyrakat (IKM) bersumber dari SuKMa-e Jatim <span style="color:#06c706; font-weight: 750;">86.35</span> data per 1 Januari 2023 s/d Juli 2023   
+                                <h2> Nilai Indeks Kepuasan Masyrakat (IKM) bersumber dari SuKMa-e Jatim <span style="color:#06c706; font-weight: 750;">88.33</span> data per 1 Januari 2023 s/d Desember 2023   
                                 </h2>
                             </div>
                             <div class="inner-content">
